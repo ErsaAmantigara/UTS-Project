@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>About</title>
+	<style type="text/css">
+		body {
+			background-color: antiquewhite;
+		}
+
+ 		header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        nav {
+            position: absolute; 
+            top: 15px;
+            right: 15px; 
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex; 
+        }
+
+        nav ul li {
+            margin-right: 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: white; 
+        }
+
+        main {
+            text-align: center; 
+            width: 100%; 
+            margin-bottom: auto; 
+        }
+
+        footer {
+            margin-top: auto; 
+        }
+
+        .hairstyle p {
+            font-size: 16px;
+            font-family: "courier";
+            line-height: 1.5;
+            color: black;
+        }
+
+		/* Element Selector */
+		div {
+		    margin: 20px;
+		    padding: 10px;
+		    border: 3px solid black;
+		}
+
+		/* Class Selector */
+		.hairstyle {
+		    display: inline-block;
+		}
+
+		.two-block {
+		    margin-top: 30px;
+		    background-color: whitesmoke;
+		}
+
+		/* ID Selector */
+		#comma-hair {
+		    border-color: navajowhite;
+		    background-color: whitesmoke;
+		}
+
+		/* Attribute Selector */
+		img[alt="French Crop"] {
+		    border-color: green;
+		}
+
+		/* Universal Selector */
+		* {
+		    box-sizing: border-box;
+}
+		
+	</style>
+</head>
+<body>
+	<hr>
+	<header>
+		<h1>Style Hair</h1>
+		<nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+    </nav>
+	</header>
+	<hr/>
+	 <div class="hairstyle" id="comma-hair">
+	 	<p>Comma Hair: Gaya rambut yang memperlihatkan poni panjang yang terkesan menonjol ke depan.</p>
+        <img src="../assets/images/comma-hair.jpg" alt="Comma Hair" width="200" height="150">
+    </div>
+    
+    <div class="hairstyle undercut" id="undercut">
+    	<p>Undercut: Gaya rambut yang memiliki rambut sangat pendek atau dicukur di bagian samping atau belakang kepala, sementara bagian atas tetap panjang.</p>
+        <img src="../assets/images/undercut.jpg" alt="Undercut" width="200" height="150">
+    </div>
+
+     <div class="hairstyle two-block">
+    	<p>Two Block: Gaya rambut yang dipotong sangat pendek di bagian belakang dan samping, dengan bagian atas rambut yang lebih panjang.</p>
+        <img src="../assets/images/two-block.jpg" alt="Two Block" width="200" height="150">
+    </div>
+    
+    <div class="hairstyle french-crop">
+    	<p>French Crop: Gaya rambut pendek yang memiliki poni yang rapi dan terpotong pendek, dengan tekstur di bagian atas.</p>
+        <img src="../assets/images/french-crop.jpg" alt="French Crop"  width="200" height="150">
+    </div>
+    
+    <div class="hairstyle taper-fade">
+    	<p>Taper Fade: Gaya rambut dengan rambut yang pendek di bagian bawah dan memudar secara bertahap ke atas, menciptakan tampilan yang bersih dan rapi.</p>
+        <img src="../assets/images/taper-fade.png" alt="Taper Fade" width="200" height="150">
+    </div>
+
+</body>
+</html>
